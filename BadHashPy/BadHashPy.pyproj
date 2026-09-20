@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>25d1aa85-9f53-41ec-a297-62d046413b86</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>BadHashPy.py</StartupFile>
+    <StartupFile>badhashpy.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BadHashPy.py" />
+    <Compile Include="badhashpy.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="badhashpydnd.py" />
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
